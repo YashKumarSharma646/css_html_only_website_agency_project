@@ -1,0 +1,60 @@
+h2{
+  color:blueviolet;
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 6px green;
+}
+h1{
+    font-size: 5rem;
+    color:black;
+}
+body{
+  background-image: url('./ingmar-Am_CgxYX44I-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p{
+    margin:25px;
+}
+img{
+    height:225px;
+    width:250px;
+    float:left;
+    margin:25px;
+}
+.beauty{
+    display:inline-block;
+}
+.construction{
+    display:inline-block;
+}
+footer{
+    text-align: right;
+    color:coral;
+    clear:left;
+}
+.creative{
+    color:blueviolet;
+}
+@media(max-width:600px){
+    .beauty{
+        display: block;
+    }
+    .construction{
+        display: block;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size:1rem;
+    }
+    img{
+        border:4px goldenrod solid;
+        width:fit-content;
+        float:none;
+        margin:15px auto;
+    }
+}
